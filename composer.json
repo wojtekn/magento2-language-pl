@@ -1,0 +1,22 @@
+{
+    "name": "rocketcode/language-pl_pl",
+    "description": "Polish language",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/framework": "0.42.0-beta3",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-language",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "rocketcode/pl_pl"
+            ]
+        ]
+    }
+}
