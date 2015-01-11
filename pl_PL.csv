@@ -81,8 +81,8 @@ Quantity,Quantity,module,"Magento_Backend,Magento_Catalog,Magento_ConfigurablePr
 "My Account","My Account",module,"Magento_Backend,Magento_Customer"
 "Account Information","Account Information",module,"Magento_Backend,Magento_Customer,Magento_Sales,Magento_User"
 "User Name","User Name",module,"Magento_Backend,Magento_User"
-"First Name","First Name",module,"Magento_Backend,Magento_Catalog,Magento_Reports,Magento_Sales,Magento_User,Magento_Log"
-"Last Name","Last Name",module,"Magento_Backend,Magento_Catalog,Magento_Reports,Magento_Sales,Magento_User,Magento_Log"
+"First Name","Imię",module,"Magento_Backend,Magento_Catalog,Magento_Reports,Magento_Sales,Magento_User,Magento_Log"
+"Last Name","Nazwisko",module,"Magento_Backend,Magento_Catalog,Magento_Reports,Magento_Sales,Magento_User,Magento_Log"
 Email,Email,module,"Magento_Backend,Magento_Catalog,Magento_Checkout,Magento_Contact,Magento_Customer,Magento_Eav,Magento_Integration,Magento_Reports,Magento_Sales,Magento_Sendfriend,Magento_User,Magento_Log,Magento_Newsletter"
 "User Email","User Email",module,"Magento_Backend,Magento_User"
 "New Password","New Password",module,"Magento_Backend,Magento_Customer,Magento_User"
@@ -1245,7 +1245,7 @@ Continue,Continue,module,"Magento_Checkout,Magento_Directory,Magento_ImportExpor
 "Fast and easy check out","Fast and easy check out",module,Magento_Checkout
 "Easy access to your order history and status","Easy access to your order history and status",module,Magento_Checkout
 "Checkout as Guest","Checkout as Guest",module,Magento_Checkout
-Register,Register,module,"Magento_Checkout,Magento_Customer"
+Register,Zarejestruj się,module,"Magento_Checkout,Magento_Customer"
 Login,Login,module,"Magento_Checkout,Magento_Customer"
 "Already registered?","Already registered?",module,Magento_Checkout
 "Please log in below:","Please log in below:",module,Magento_Checkout
@@ -1544,7 +1544,7 @@ Download,Download,module,"Magento_Customer,Magento_Backup"
 "There was an error detecting Customer Group.","There was an error detecting Customer Group.",module,Magento_Customer
 "Validate VAT Number","Validate VAT Number",module,Magento_Customer
 "Customer Login","Customer Login",module,Magento_Customer
-"Create New Customer Account","Create New Customer Account",module,Magento_Customer
+"Create New Customer Account","Utwórz nowe konto",module,Magento_Customer
 "Date of Birth","Date of Birth",module,Magento_Customer
 "Bad request.","Bad request.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","This confirmation key is invalid or has expired.",module,Magento_Customer
@@ -2508,7 +2508,7 @@ Cancelled,Cancelled,module,Magento_Newsletter
 "Please enter new template name.","Please enter new template name.",module,Magento_Newsletter
 " Copy"," Copy",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Sign Up for Our Newsletter:",module,Magento_Newsletter
-"Enter your email address","Enter your email address",module,Magento_Newsletter
+"Enter your email address","Podaj swój adres e-mail",module,Magento_Newsletter
 Subscribe,Subskrybuj,module,Magento_Newsletter
 "<label class=""label""><span>Make Check payable to:</span></label> %1","<label class=""label""><span>Make Check payable to:</span></label> %1",module,Magento_OfflinePayments
 "Send Check to:","Send Check to:",module,Magento_OfflinePayments
@@ -3459,7 +3459,7 @@ FOUND,FOUND,module,Magento_SalesRule
 "You saved the search term.","You saved the search term.",module,Magento_Search
 "Something went wrong while saving the search query.","Something went wrong while saving the search query.",module,Magento_Search
 "Your search query can't be longer than %1, so we had to shorten your query.","Your search query can't be longer than %1, so we had to shorten your query.",module,Magento_Search
-"Search entire store here...","Search entire store here...",module,Magento_Search
+"Search entire store here...","Szukaj...",module,Magento_Search
 "There are no search terms available.","There are no search terms available.",module,Magento_Search
 "You can't send messages more than %1 times an hour.","You can't send messages more than %1 times an hour.",module,Magento_Sendfriend
 "The link to a friend was sent.","The link to a friend was sent.",module,Magento_Sendfriend
@@ -5251,8 +5251,8 @@ Footer,Footer,module,Magento_Theme
 Copyright,Copyright,module,Magento_Theme
 "Miscellaneous HTML","Miscellaneous HTML",module,Magento_Theme
 "This will be displayed just before body closing tag.","This will be displayed just before body closing tag.",module,Magento_Theme
-"Default welcome msg!","Default welcome msg!",module,Magento_Theme
-"&copy; 2014 Magento Demo Store. All Rights Reserved.","&copy; 2014 Magento Demo Store. All Rights Reserved.",module,Magento_Theme
+"Default welcome msg!","Domyślna wiadomość powitalna!",module,Magento_Theme
+"&copy; 2014 Magento Demo Store. All Rights Reserved.","&copy; 2014 Sklep demonstracyjny Magento 2. Wszelkie prawa zastrzeżone.",module,Magento_Theme
 "Admin empty","Admin empty",module,Magento_Theme
 "Admin 1column","Admin 1column",module,Magento_Theme
 "Skip to content","Skip to content",module,Magento_Theme
