@@ -3011,6 +3011,7 @@ Unassign,Unassign,module,Magento_Sales
 "Something went wrong updating the order address.","Something went wrong updating the order address.",module,Magento_Sales
 "You canceled the order.","You canceled the order.",module,Magento_Sales
 "You have not canceled the item.","You have not canceled the item.",module,Magento_Sales
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" coupon code was not applied. Do not apply discount is selected for item(s)",module,Magento_Sales
 """%1"" coupon code is not valid.","""%1"" coupon code is not valid.",module,Magento_Sales
 "The coupon code has been accepted.","The coupon code has been accepted.",module,Magento_Sales
 "Quote item id is not received.","Quote item id is not received.",module,Magento_Sales
@@ -3122,7 +3123,6 @@ Partial,Partial,module,Magento_Sales
 Mixed,Mixed,module,Magento_Sales
 "An amount of %1 will be captured after being approved at the payment gateway.","An amount of %1 will be captured after being approved at the payment gateway.",module,Magento_Sales
 "Captured amount of %1 online","Captured amount of %1 online",module,Magento_Sales
-"An order with subscription items was registered.","An order with subscription items was registered.",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","The transaction ""%1"" cannot be captured yet.",module,Magento_Sales
 "Order is suspended as its capture amount %1 is suspected to be fraudulent.","Order is suspended as its capture amount %1 is suspected to be fraudulent.",module,Magento_Sales
 "Registered notification about captured amount of %1.","Registered notification about captured amount of %1.",module,Magento_Sales
@@ -3188,14 +3188,11 @@ Number,Number,module,"Magento_Sales,Magento_Shipping"
 "The last status can't be unassigned from its current state.","The last status can't be unassigned from its current state.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Status can't be unassigned, because it is used by existing order(s).",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
-"Sorry, but items with payment agreements must be ordered one at a time To continue, please remove or buy the other items in your cart, then order this item by itself.","Sorry, but items with payment agreements must be ordered one at a time To continue, please remove or buy the other items in your cart, then order this item by itself.",module,Magento_Sales
 "We found an invalid request for adding product to quote.","We found an invalid request for adding product to quote.",module,Magento_Sales
 "This is the wrong quote item id to update configuration.","This is the wrong quote item id to update configuration.",module,Magento_Sales
 "This shipping method is not available. To use this shipping method, please contact us.","This shipping method is not available. To use this shipping method, please contact us.",module,Magento_Sales
 "The address model is not defined.","The address model is not defined.",module,Magento_Sales
 "The address total model should be extended from \Magento\Sales\Model\Quote\Address\Total\AbstractTotal.","The address total model should be extended from \Magento\Sales\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Sales
-"Subscription Items","Subscription Items",module,Magento_Sales
-"Regular Payment","Regular Payment",module,Magento_Sales
 "Shipping & Handling (%1)","Shipping & Handling (%1)",module,Magento_Sales
 "We found an invalid item option format.","We found an invalid item option format.",module,Magento_Sales
 "An item option with code %1 already exists.","An item option with code %1 already exists.",module,"Magento_Sales,Magento_Wishlist"
@@ -3738,8 +3735,6 @@ Manage,Manage,module,Magento_Theme
 "Theme Settings","Theme Settings",module,Magento_Theme
 "Parent Theme","Parent Theme",module,Magento_Theme
 "Theme Path","Theme Path",module,Magento_Theme
-"Theme Version","Theme Version",module,Magento_Theme
-"Example: 0.0.0.1 or 123.1.0.25-alpha1","Example: 0.0.0.1 or 123.1.0.25-alpha1",module,Magento_Theme
 "Theme Title","Theme Title",module,Magento_Theme
 "Theme Preview Image","Theme Preview Image",module,Magento_Theme
 "Copy of %1","Copy of %1",module,Magento_Theme
@@ -4162,7 +4157,7 @@ API,API,module,Magento_Webapi
 "Request method is invalid.","Request method is invalid.",module,Magento_Webapi
 "Decoding error.","Decoding error.",module,Magento_Webapi
 "Decoding error: %1%2%3%4","Decoding error: %1%2%3%4",module,Magento_Webapi
-"Server cannot understand Accept HTTP header media type.","Server cannot understand Accept HTTP header media type.",module,Magento_Webapi
+"Server cannot match any of the given Accept HTTP header media type(s) from the request: ""%1"" ' 'with media types from the config of response renderer.","Server cannot match any of the given Accept HTTP header media type(s) from the request: ""%1"" ' 'with media types from the config of response renderer.",module,Magento_Webapi
 "Request does not match any route.","Request does not match any route.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Not allowed parameters: %1. Please use only %2 and %3.",module,Magento_Webapi
 "Incorrect format of WSDL request URI or Requested services are missing.","Incorrect format of WSDL request URI or Requested services are missing.",module,Magento_Webapi
